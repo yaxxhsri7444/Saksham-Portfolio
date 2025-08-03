@@ -1,0 +1,20 @@
+footer i {
+  transition: transform 0.2s ease;
+}
+footer i:hover {
+  transform: scale(1.1);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #0f172a;
+  color: #fff;
+}
+:host {
+  display: block;
+  padding-top: 1rem;
+  margin-top: 0;
+  background-color: #0f172a;
+}

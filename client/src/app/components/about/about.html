@@ -1,0 +1,63 @@
+<section id="about" class="py-16 bg-white dark:bg-gray-900 text-center">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-indigo-600 mb-4">About Me</h2>
+    <div class="md:flex md:items-center md:gap-12">
+      <div class="md:w-1/2 mb-6 md:mb-0">
+        <img src="undraw_in-the-zone_07y7.svg" alt="Saksham Srivastava" class="rounded-xl shadow-md w-full max-w-sm mx-auto md:mx-0">
+      </div>
+      <div class="md:w-1/2 text-gray-800 dark:text-gray-200">
+        <p class="text-lg mb-4">
+          I’m <strong>Saksham Srivastava</strong>, a passionate MEAN Stack Developer from Ayodhya. I build scalable web apps with Angular, Node.js, MongoDB, and Express. I’m currently in my final year of BCA and actively working on real-world projects.
+        </p>
+        <ul class="list-none list-inside mb-6 text-base text-align-left">
+          <li>🌐 Frontend: Angular, HTML, CSS,Tailwind, Bootstrap,</li>
+          <li>🛠️ Backend: Node.js, Express, </li>
+          <li>🗃️ Database: MongoDB</li>
+        </ul>
+        <a href="saksham_resume.pdf" download class="inline-block bg-indigo-600 text-white px-6 py-3 rounded shadow hover:bg-indigo-700 transition">
+          Download CV
+        </a>
+      </div>
+    </div>
+
+    <hr class="my-8 text-gray-800" />
+
+    <h3 class="text-2xl font-semibold text-indigo-500 mb-4">Tech Stack</h3>
+    <div
+      class="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 text-center"
+    >
+      <div
+        *ngFor="let skill of skills"
+        class="bg-gray-100 dark:bg-gray-800 p-4 rounded shadow hover:shadow-lg transition"
+      >
+        <span class="text-lg font-semibold text-gray-700 dark:text-white"
+          ><i [class]="skill.icon"></i>
+          <p>{{ skill.name }}</p></span
+        >
+      </div>
+    </div>
+
+    <hr class="my-8 text-gray-800" />
+
+    <h3 class="text-2xl font-semibold text-indigo-500 mb-4">Certificate</h3>
+    <div
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-gray-800 dark:text-gray-200"
+    >
+      <div
+        class="p-3 bg-indigo-50 dark:bg-gray-800 rounded-lg shadow-sm"
+        *ngFor="let cert of certificates"
+      >
+        <h3 class="text-xl font-semibold text-gray-200">{{ cert.title }}</h3>
+        <p class="text-gray-500 mt-2">Issued by {{ cert.issuer }}</p>
+        <a
+          [href]="cert.url"
+          target="_blank"
+          rel="noopener"
+          class="mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+        >
+          View Certificate
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
