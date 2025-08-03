@@ -12,7 +12,7 @@ export class Projects {
 PROJECTS = [
   {
     title: 'Spotify Clone',
-    description: 'Music streaming web app built with Angular and TailwindCSS.',
+    description: 'Music streaming web app built with Angular and Bootstrap.',
     githubUrl: 'https://github.com/yaxxhsri7444/spotify-clone'
   },
   {
@@ -27,8 +27,18 @@ PROJECTS = [
   },
   {
     title: 'Decentralized Job Finder',
-    description: 'Connect job seekers and employers using blockchain features.',
+    description: 'A full-stack Decentralized Job Finder platform where Employers can post jobs, and jobseekers can apply and directly message employers — all within a modern responsive UI..',
     githubUrl: 'https://github.com/yaxxhsri7444/job-finder'
+  },
+  {
+    title: 'Ask-AI – Personal AI Assistant ',
+    description: 'Ask-AI is a lightweight and responsive web application that acts as your personal AI assistant.',
+    githubUrl: 'https://github.com/yaxxhsri7444/Ask-AI'
+  },
+  {
+    title: 'Port4U-Portfolio-PDF-Generator',
+    description: 'A MEAN stack web app that lets users create and download professional PDF portfolios from their personal, academic, and work details',
+    githubUrl: 'https://github.com/yaxxhsri7444/Port4U-Portfolio-PDF-Generator'
   },
 ];
 
