@@ -8,27 +8,26 @@ import { Component } from '@angular/core';
   styleUrl: './projects.css'
 })
 export class Projects {
-  // src/app/data/projectsData.ts
 PROJECTS = [
   {
     title: 'Spotify Clone',
     description: 'Music streaming web app built with Angular and Bootstrap.',
-    githubUrl: 'https://github.com/yaxxhsri7444/spotify-clone'
+    githubUrl: 'https://github.com/yaxxhsri7444/Spotify-Clone-Project'
   },
   {
     title: 'E-Commerce Website',
     description: 'Fully responsive shopping site using MEAN stack.',
-    githubUrl: 'https://github.com/yaxxhsri7444/ecommerce-site'
+    githubUrl: 'https://github.com/yaxxhsri7444/E-Commerce_App'
   },
   {
     title: 'E-Learning Platform',
     description: 'Online course website with video lessons and assignment submission.',
-    githubUrl: 'https://github.com/yaxxhsri7444/e-learning-platform'
+    githubUrl: 'https://github.com/yaxxhsri7444/E-learning-APP'
   },
   {
     title: 'Decentralized Job Finder',
     description: 'A full-stack Decentralized Job Finder platform where Employers can post jobs, and jobseekers can apply and directly message employers — all within a modern responsive UI..',
-    githubUrl: 'https://github.com/yaxxhsri7444/job-finder'
+    githubUrl: 'https://github.com/yaxxhsri7444/Hirenet-Decentralized-Job-Finder-App'
   },
   {
     title: 'Ask-AI – Personal AI Assistant ',
